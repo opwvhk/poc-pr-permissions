@@ -1,0 +1,41 @@
+##
+## Define code ownership for all files in this repo.
+##
+## Required because the green organisation works with an "Inner Source", allowing
+## non-team members to (at least) push their own branches and open pull requests.
+##
+## Short syntax summary:
+## - Similar to .gitignore, but without ! and [ ]
+## - Folders match recursively, unless you append '/*'; then it matches only 1 level
+## - Possible reviewers have the form @user, or @org/team
+## - Last match wins, so general rules first, and specific ones later
+## - There are 3 sections, in this order, due to "last match wins":
+##   - General ownership (the * rule)
+##   - Everything else
+##   - Ownership of the CODEOWNERS file
+## - .
+## - .
+##
+## More info: https://docs.github.com/en/enterprise-server@3.17/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners#example-of-a-codeowners-file
+##
+
+# This is the default ownership for the repo, unless overridden
+* @opwvhk @opkind
+
+# Allow each team to directly push their own schemas
+/tenants/opwvhk @opwvhk
+/tenants/opkind @opkind
+
+
+# The team owns the .github folder
+/.github/  @opwvhk @opkind
+
+#
+# IMPORTANT: explicitly assign ownership of the CODEOWNERS file last!
+#
+# These are all allowed CODEOWNERS locations, in reverse search order.
+# (prefer the last 2 locations, based on preferred visibility of the file)
+/docs/CODEOWNERS @opwvhk @opkind
+/CODEOWNERS @opwvhk @opkind
+/.github/CODEOWNERS @opwvhk @opkind
+
