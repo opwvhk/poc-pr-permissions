@@ -8,6 +8,6 @@ Tested:
 - require review from code owner
 - do not require review if PR by only code owner
 
-To test:
+Test FAILED:
 - do not require review if PR by one of several code owners
 
