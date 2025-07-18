@@ -35,7 +35,7 @@
 #
 # These are all allowed CODEOWNERS locations, in reverse search order.
 # (prefer the last 2 locations, based on preferred visibility of the file)
-/docs/CODEOWNERS @opwvhk @wvhk-org-poc/maintainers
-/CODEOWNERS @opwvhk @wvhk-org-poc/maintainers
-/.github/CODEOWNERS @opwvhk @wvhk-org-poc/maintainers
+/docs/CODEOWNERS @opwvhk @wvhk-org-poc/admins
+/CODEOWNERS @opwvhk @wvhk-org-poc/admins
+/.github/CODEOWNERS @opwvhk @wvhk-org-poc/admins
 
