@@ -26,7 +26,6 @@
 /tenants/opwvhk @opwvhk
 /tenants/opkind @opkind
 
-
 # The team owns the .github folder
 /.github/  @wvhk-org-poc/maintainers
 
