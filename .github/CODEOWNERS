@@ -20,7 +20,7 @@
 ##
 
 # This is the default ownership for the repo, unless overridden
-* @opwvhk @opkind
+* @opwvhk @wvhk-org-poc/maintainers
 
 # Allow each team to directly push their own schemas
 /tenants/opwvhk @opwvhk
@@ -28,14 +28,14 @@
 
 
 # The team owns the .github folder
-/.github/  @opwvhk @opkind
+/.github/  @wvhk-org-poc/maintainers
 
 #
 # IMPORTANT: explicitly assign ownership of the CODEOWNERS file last!
 #
 # These are all allowed CODEOWNERS locations, in reverse search order.
 # (prefer the last 2 locations, based on preferred visibility of the file)
-/docs/CODEOWNERS @opwvhk @opkind
-/CODEOWNERS @opwvhk @opkind
-/.github/CODEOWNERS @opwvhk @opkind
+/docs/CODEOWNERS @opwvhk @wvhk-org-poc/admins
+/CODEOWNERS @opwvhk @wvhk-org-poc/admins
+/.github/CODEOWNERS @opwvhk @wvhk-org-poc/admins
 
